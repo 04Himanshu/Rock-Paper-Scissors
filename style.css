@@ -1,0 +1,52 @@
+* {
+    margin: 15px;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: rgb(25, 25, 25);
+    color: white;
+    font-size: x-large;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+.rock,
+.paper,
+.scissors {
+    border: 3px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 10p;
+}
+
+.js-result {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+img {
+    width: 110px;
+}
+
+.reset-btn {
+    border: none;
+    padding: 10px 20px;
+    font-weight: bolder;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.moves-icon {
+    width: 40px;
+    background: transparent;
+    margin: 20px;
+}
